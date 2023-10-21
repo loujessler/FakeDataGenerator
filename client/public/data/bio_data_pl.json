@@ -1,0 +1,196 @@
+{
+  "language": "Polish",
+  "names": {
+    "male": [
+      "Jakub",
+      "Kacper",
+      "Filip",
+      "Szymon",
+      "Jan",
+      "Michał",
+      "Piotr",
+      "Mateusz",
+      "Bartosz",
+      "Adam",
+      "Tomasz",
+      "Marcin",
+      "Dawid",
+      "Andrzej",
+      "Karol",
+      "Paweł",
+      "Krzysztof",
+      "Marek",
+      "Maciej",
+      "Damian",
+      "Rafał",
+      "Daniel",
+      "Michał",
+      "Lukasz",
+      "Mariusz"
+    ],
+    "female": [
+      "Anna",
+      "Maria",
+      "Katarzyna",
+      "Małgorzata",
+      "Agnieszka",
+      "Barbara",
+      "Ewa",
+      "Magdalena",
+      "Joanna",
+      "Marta",
+      "Alicja",
+      "Julia",
+      "Dorota",
+      "Paulina",
+      "Karolina",
+      "Natalia",
+      "Kinga",
+      "Elżbieta",
+      "Izabela",
+      "Monika",
+      "Patrycja",
+      "Kamila",
+      "Dominika",
+      "Sylwia",
+      "Weronika"
+    ]
+  },
+  "surnames": [
+    "Nowak",
+    "Kowalski",
+    "Wiśniewski",
+    "Dąbrowski",
+    "Lewandowski",
+    "Wójcik",
+    "Kamiński",
+    "Kowalczyk",
+    "Zieliński",
+    "Szymański",
+    "Woźniak",
+    "Kozłowski",
+    "Jankowski",
+    "Wojciechowski",
+    "Kwiatkowski",
+    "Kaczmarek",
+    "Piotrowski",
+    "Grabowski",
+    "Zając",
+    "Król"
+  ],
+  "streets": [
+    "ul. Polna",
+    "ul. Leśna",
+    "ul. Słoneczna",
+    "ul. Kwiatowa",
+    "ul. Warszawska",
+    "ul. Ogrodowa",
+    "ul. Piękna",
+    "ul. Główna",
+    "ul. Łąkowa",
+    "ul. Kościuszki",
+    "ul. Lipowa",
+    "ul. Miodowa",
+    "ul. Skłodowskiej",
+    "ul. Spacerowa",
+    "ul. Rynkowska",
+    "ul. Wojska Polskiego",
+    "ul. Jagiellońska",
+    "ul. Brzozowa",
+    "ul. Żeromskiego",
+    "ul. Cicha"
+  ],
+  "cities": [
+    "Warszawa",
+    "Kraków",
+    "Łódź",
+    "Wrocław",
+    "Poznań",
+    "Gdańsk",
+    "Szczecin",
+    "Bydgoszcz",
+    "Lublin",
+    "Katowice",
+    "Białystok",
+    "Gdynia",
+    "Częstochowa",
+    "Radom",
+    "Sosnowiec",
+    "Toruń",
+    "Kielce",
+    "Gliwice",
+    "Zabrze",
+    "Bytom"
+  ],
+  "states": {
+    "DS": "Dolnośląskie",
+    "KP": "Kujawsko-pomorskie",
+    "LB": "Lubuskie",
+    "LD": "Łódzkie",
+    "LU": "Lubelskie",
+    "MA": "Małopolskie",
+    "MZ": "Mazowieckie",
+    "OP": "Opolskie",
+    "PK": "Podkarpackie",
+    "PL": "Podlaskie",
+    "PM": "Pomorskie",
+    "SL": "Śląskie",
+    "SK": "Świętokrzyskie",
+    "WM": "Warmińsko-mazurskie",
+    "WP": "Wielkopolskie",
+    "ZP": "Zachodniopomorskie"
+  },
+  "phoneCodes": {
+    "DS": [
+      "71"
+    ],
+    "KP": [
+      "52"
+    ],
+    "LB": [
+      "91"
+    ],
+    "LD": [
+      "42"
+    ],
+    "LU": [
+      "81"
+    ],
+    "MA": [
+      "12"
+    ],
+    "MZ": [
+      "22"
+    ],
+    "OP": [
+      "77"
+    ],
+    "PK": [
+      "17"
+    ],
+    "PL": [
+      "85"
+    ],
+    "PM": [
+      "58"
+    ],
+    "SL": [
+      "32"
+    ],
+    "SK": [
+      "41"
+    ],
+    "WM": [
+      "89"
+    ],
+    "WP": [
+      "61"
+    ],
+    "ZP": [
+      "94"
+    ]
+  },
+  "countryCode": "+48",
+  "phoneScheme": "-###-####",
+  "alphabet": "aąbcćdeęfghijklłmnńoópqrsśtuvwxyzźżAĄBCĆDEĘFGHIJKLŁMNŃOÓPQRSŚTUVWXYZŹŻ"
+}

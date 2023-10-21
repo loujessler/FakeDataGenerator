@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 1px;
+  color: white;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px 12px;
+}
+
+select, input {
+  padding: 5px;
+  margin: 10px;
+}
+
+.error-slider-container {
+  display: flex;
+  align-items: center;
+}
