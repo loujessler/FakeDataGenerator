@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Fake Data Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React project that is containerized using Docker and served using Nginx.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+You need to have the following installed to work with this project:
 
-### `npm start`
+- [Node.js](https://nodejs.org/)
+- [Docker](https://www.docker.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone the repository and navigate to the project directory:
 
-### `npm test`
+```sh
+git clone https://github.com/loujessler/FakeDataGenerator.git
+cd FakeDataGenerator
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Development
 
-### `npm run build`
+To run the application in development mode, run:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+npm install
+npm start
+```
+After that, open http://localhost:3000 to view the application in your browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Building the Docker Image
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To build a Docker image of your application, run the following command:
+```sh
+docker build -t fakedatagenerator .
+```
+This command will create a Docker image named fakedatagenerator.
 
-### `npm run eject`
+## Running the App in Docker
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+After building the image, you can run the application in a Docker container using:
+```sh
+docker run -p 8080:80 fakedatagenerator
+```
+This command starts a container and maps port 80 inside the container to port 8080 on your host machine.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You can then open http://localhost:8080 in your browser to view the application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the LICENSE.md file for details.
