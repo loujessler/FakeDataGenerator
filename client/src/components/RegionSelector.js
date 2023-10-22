@@ -7,8 +7,6 @@ const regions = [
 ];
 
 const RegionSelector = ({ selectedRegion, setSelectedRegion }) => {
-
-    // Обработчик изменения региона
     const handleRegionChange = (event) => {
         setSelectedRegion(event.target.value);
     };

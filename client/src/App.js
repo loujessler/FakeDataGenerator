@@ -6,7 +6,7 @@ function App() {
   return (
       <div className="App">
         <header className="App-header">
-          <h1>Fake User Data Generator </h1>
+          <h1>Fake Data Generator </h1>
         </header>
         <UserGenerator />
       </div>

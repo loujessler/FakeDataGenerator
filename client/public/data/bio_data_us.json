@@ -307,5 +307,5 @@
   },
   "countryCode": "+1",
   "phoneScheme": "-###-####",
-  "alphabet": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  "alphabet": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?#$%!^*()|"
 }
